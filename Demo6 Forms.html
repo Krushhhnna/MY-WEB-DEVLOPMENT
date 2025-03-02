@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <h3>This is HTML Forms toutorial:</h3>
+    <!-- Forms tag commmand ,
+"bakend.html" use for user fill form data save in the HTML.... -->
+    <form action="bakend.html">
+        <!--lebel tag use:click a name to typing curser open -->
+        <label for="NAME">NAME</label>
+        <input type="text" name="myname" id="NAME">
+        FATHER NAME: <input type="text" name="myfathername">
+        SURNAME: <input type="text" name="mysurname"><br>
+        <br>
+        CITY/VILLAGE:<input type="text" name="mycity">
+        TALUKA: <input type="text" name="mytaluka">
+        DISTIC:<input type="text" name="mydistic"><br>
+        <br>
+        <!-- <div> is tag same work to <br> tag next line -->
+        <div>
+            STATE:<input type="text" name="mystate">
+            COUNTRY:<input type="text" name="mycountry">
+        </div>
+        <!-- div tag not self- closing tag -->
+        <br>
+        <div>
+            EMAIL: <input type="email" name="myemail">
+
+        </div>
+        <br>
+        <div> DOB: <input type="datetime-local" name="MYDOB">
+        </div>
+        <br>
+        <div>
+            AGE: <input type="number" name="myage">
+        </div>
+        <br>
+        <div>
+            GENDER: MEALE<input type="radio" name="MYgender"> FEMALE<input type="radio" name="MYgender"> OTHER<input
+                type="radio" name="MYgender">
+        </div>
+        <br>
+        <!-- textarea tag -->
+        <div>
+            WRITE ABOUT YOURSELF: <textarea name="mytext" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="CLASS">CLASS</label>
+            <select name="myclass" id="CLASS">
+                <option value="11">11th</option>
+                <option value="12"selected>12th</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            THISINFO CORRECT: <input type="checkbox" name="my check">
+        </div>
+        <br>
+        <div>
+            <input type="Submit" name="SubmitNow">
+            <input type="reset" name="resetnow">
+        </div>
+    </form>
+
+
+</body>
+
+</html>
